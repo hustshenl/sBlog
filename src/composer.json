@@ -1,0 +1,58 @@
+{
+  "name": "hustshenl/s-blog",
+  "description": "Yii 2 Basic Blog Project",
+  "keywords": [
+    "yii2",
+    "blog",
+    "project"
+  ],
+  "homepage": "http://sblog.shenl.com/",
+  "type": "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Shen Lei",
+      "email": "shen@shenl.com",
+      "homepage": "http://www.shenl.com/",
+      "role": "Founder and project lead"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/hustshenl/sBlog/issues?state=open",
+    "forum": "http://small.shenl.com/",
+    "wiki": "https://github.com/hustshenl/sBlog/wiki/",
+    "source": "https://github.com/hustshenl/sBlog"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5.9",
+    "yiisoft/yii2": "~2.0",
+    "yiisoft/yii2-bootstrap": "~2.0",
+    "yiisoft/yii2-swiftmailer": "~2.0",
+    "yiisoft/yii2-jui": "~2.0",
+    "yiisoft/yii2-imagine": "~2.0",
+    "yiisoft/yii2-redis": "~2.0.0",
+    "yiisoft/yii2-sphinx": "~2.0.0",
+    "yiisoft/yii2-httpclient": "~2.0.0",
+    "creocoder/yii2-flysystem": "~0.8",
+    "hustshenl/yii2-pinyin": "~0.0",
+    "piwik/device-detector": "~3.7"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "*",
+    "yiisoft/yii2-debug": "*",
+    "yiisoft/yii2-gii": "*",
+    "yiisoft/yii2-faker": "*"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower",
+      "npm-searchable": false,
+      "bower-searchable": false
+    }
+  }
+}

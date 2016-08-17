@@ -18,11 +18,15 @@
 | name | 文件名称 | varchar(255)
 | title     | 文件标题 | varchar(255)
 | author
-| comment_status
 | password
+| comment_status
 | parent          | 父id
 | type
 | mime_type
+| categories
+| tags
+| created_at
+| updated_at
 
 
 
@@ -65,6 +69,6 @@
 
 | 字段        | 名称        |  类型 |
 |--- |--- |---
-| version | Commit id | varchar(255)
+| commit | Commit id | varchar(255)
 | apply_at | 提交时间 | int(10)
 
